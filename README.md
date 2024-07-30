@@ -14,7 +14,7 @@ A simple go logger which is based on the go library log and extends it with stan
 Clone the repository and import the package into your Go project:
 
 ```sh
-git clone https://github.com/fastjack-it/logger.git
+go get github.com/fastjack-it/logger
 ```
 
 In your Go file:
