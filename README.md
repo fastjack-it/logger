@@ -93,10 +93,10 @@ func main() {
  log.Error("This is an error message")
  log.Debug("This is a debug message")
 
- log.Infof("User %s has logged in", "Alice")
- log.Warnf("Disk space is low: %d%% remaining", 10)
- log.Errorf("Failed to open file: %s", "example.txt")
- log.Debugf("Processing item %d of %d", 1, 10)
+ log.Info("User %s has logged in", "Alice")
+ log.Warn("Disk space is low: %d%% remaining", 10)
+ log.Error("Failed to open file: %s", "example.txt")
+ log.Debug("Processing item %d of %d", 1, 10)
 
  currentLogLevel := log.GetLogLevel()
  fmt.Println("Current log level:", currentLogLevel)
