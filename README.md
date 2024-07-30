@@ -1,6 +1,6 @@
 # Custom Logger
 
-A simple go logger which is based on the go library log and extends it with standardized log outputs according to stout.
+A simple go logger which is based on the go library log and extends it with standardized log outputs according to stdout.
 
 ## Features
 
