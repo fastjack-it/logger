@@ -8,7 +8,7 @@ import (
 )
 
 // Version represents the current version of the application.
-const Version = "1.0.0"
+const Version = "1.0.1"
 
 // Loglevel represents the severity of the log message.
 type Loglevel string
