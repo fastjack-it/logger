@@ -14,13 +14,13 @@ A simple go logger which is based on the go library log and extends it with stan
 Clone the repository and import the package into your Go project:
 
 ```sh
-go get github.com/fastjack-it/logger
+go get github.com/head-crash/logger
 ```
 
 In your Go file:
 
 ```go
-import "github.com/fastjack-it/logger"
+import "github.com/head-crash/logger"
 ```
 
 ## Usage
@@ -66,10 +66,10 @@ fmt.Println("Current log level:", currentLogLevel)
 You can also write formatted log messages using `Printf` style formatting:
 
 ```go
-log.Infof("User %s has logged in", "Alice")
-log.Warnf("Disk space is low: %d%% remaining", 10)
-log.Errorf("Failed to open file: %s", "example.txt")
-log.Debugf("Processing item %d of %d", 1, 10)
+log.Info("User %s has logged in", "Alice")
+log.Warn("Disk space is low: %d%% remaining", 10)
+log.Error("Failed to open file: %s", "example.txt")
+log.Debug("Processing item %d of %d", 1, 10)
 ```
 
 ## Example
@@ -81,7 +81,7 @@ package main
 
 import (
  "fmt"
- "github.com/fastjack-it/logger"
+ "github.com/head-crash/logger"
 )
 
 func main() {

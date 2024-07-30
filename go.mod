@@ -1,3 +1,3 @@
-module github.com/fastjack-it/logger
+module github.com/head-crash/logger
 
 go 1.22.5
