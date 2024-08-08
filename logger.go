@@ -96,7 +96,7 @@ func (l *Logger) Debug(msg string, v ...any) {
 
 // SetLogLevel sets the log level for the logger.
 func (l *Logger) SetLogLevel(loglevel Loglevel) {
-	if !l.ValidateLogLevel(loglevel) {
+	if l.ValidateLogLevel(loglevel) {
 		l.loglevel = loglevel
 		l.Info(fmt.Sprintf("Log level set to %s", loglevel))
 		return
